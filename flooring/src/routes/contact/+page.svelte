@@ -7,9 +7,9 @@
     <div class="h-[4.5rem]"></div>
 
     <div class="w-full md:h-96 h-44  bg-[url('/bg1.jpg')] bg-cover  justify-center place-items-center flex">
-        <h1 class="text-6xl text-black">Contact</h1>
+        <h1 class="text-4xl text-black">Contact</h1>
     </div>
-    <div class="flex flex-col md:flex-row p-5 md:p-10 justify-center place-items-center gap-10">
+    <div class="flex min-h-screen flex-col md:flex-row p-5 md:p-10 justify-center place-items-center gap-10">
         <div class="w-full h-full flex flex-col justify-evenly gap-20">
             <h1 class="text-4xl">Get In Touch</h1>
             <form class="flex flex-col w-full gap-5 " method="POST" use:enhance>

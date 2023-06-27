@@ -25,7 +25,7 @@
 				</div>
 
 			</div>
-			<h2 class="text-2xl uppercase"><a href="/projects">View All Projects</a></h2>
+			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline"><a href="/projects">View All Projects</a></h2>
 		</div>
 		<div class="min-h-screen max-h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
 			<h1 class="text-4xl">Services</h1>

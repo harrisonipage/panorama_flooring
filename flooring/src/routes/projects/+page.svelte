@@ -1,8 +1,8 @@
 <div class="w-full h-fit flex flex-col justify-center bg-slate-100 text-black place-items-center">
     <div class="h-[4.5rem]"></div>
 
-    <div class="w-full md:h-96 h-44  bg-[url('/bg1.jpg')] bg-cover justify-center place-items-center flex">
-        <h1 class="text-6xl text-black">Projects</h1>
+    <div class="w-full md:h-96 h-44  bg-[url('/project.jpg')] bg-cover justify-center place-items-center flex">
+        <h1 class="text-4xl text-black">Projects</h1>
     </div>
     <div class="w-full max-w-screen-2xl min-h-screen max-h-fit flex flex-col p-5 md:p-10 ">
         <div class="h-screen w-full flex flex-col gap-10">

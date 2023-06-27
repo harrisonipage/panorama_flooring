@@ -29,7 +29,7 @@
 </Drawer>
 
 {#if (data.url === '/')}
-	{#if (y>3)}	
+	{#if (y>40)}	
 	<div  class="fixed top-0 w-screen h-[4.5rem] underline border-b-gray-200 border z-[999] overflow-x-clip " in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
 		<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-black" slotDefault="flex justify-center place-items-center" background="bg-white" slotTrail="flex justify-end">
 			<svelte:fragment slot="lead">
