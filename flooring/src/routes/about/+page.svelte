@@ -1,4 +1,4 @@
-<div class="w-screen h-fit flex flex-col justify-center bg-white text-black place-items-center">
+<div class="w-screen h-fit flex flex-col justify-center bg-slate-100 text-black place-items-center">
     <div class="h-[5rem] md:hidden"></div>
     <div class="w-full md:h-96 h-44  bg-slate-200 bg-cover justify-center place-items-center flex">
         <h1 class="text-6xl text-black">About Us</h1>

@@ -4,8 +4,8 @@
 
 </script>
 
-<div class="h-fit w-full justify-center flex flex-col place-items-center bg-white text-gray-500 gap-10 ">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-[url('/test.png')] bg-cover bg-center grayscale">
+<div class="h-fit w-full justify-center flex flex-col place-items-center bg-slate-100 text-gray-500 gap-10 ">
+	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-[url('/test.png')] bg-cover bg-center">
 	</section>
 	<div class="h-fit flex flex-col w-full max-w-screen-2xl gap-10">
 		<div class="h-96 w-full flex place-items-center p-5 md:p-10">
@@ -35,6 +35,7 @@
 				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Leveling</span> with top of the line machinery to support our staff.
 			</p>
 			<div class="w-full h-full flex flex-row flex-wrap gap-5 justify-center">
+				<!--
 				<div class="flex h-56 aspect-[3/2] justify-center place-items-center text-white  overflow-clip">
 					<img class="h-full w-full hover:scale-[1.5] duration-[3000ms]" alt="test" src="/test.png">
 				</div>
@@ -53,6 +54,7 @@
 				<div class="flex h-56 aspect-[3/2] bg-slate-200 justify-center place-items-center bg-[url('/test.png')] bg-cover text-white">
 					<h1>Warehouses</h1>
 				</div>
+				-->
 			</div>
 		</div>
 		<div class="md:h-[calc(100vh-5rem)] h-fit flex flex-col md:flex-row gap-20 p-5 md:p-10">
@@ -64,7 +66,7 @@
 						<input class="w-full bg-transparent border border-b-black border-l-0 border-r-0 border-t-0 text-black placeholder:text-gray-500 focus:ring-0 " type="text" placeholder="Your Number" required/>
 					</div>
 					<input class="w-full bg-transparent border border-b-black border-l-0 border-r-0 border-t-0 text-black placeholder:text-gray-500 focus:ring-0 " type="text" placeholder="Your Email" required/>
-					<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-500 focus:ring-0 "  rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required/>
+					<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-500 focus:ring-0 bg-transparent "  rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required/>
 					<button class="text-base px-10 btn btn-sm  rounded-none place-self-start bg-slate-300 ">Send Message</button>
 				</form>
 
