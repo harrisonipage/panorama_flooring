@@ -3,9 +3,10 @@
 	import { enhance } from "$app/forms";
 
 </script>
-<div class="min-h-screen max-h-fit flex flex-col gap-20 bg-slate-100">
-    <div class="h-[0rem] md:hidden"></div>
-    <div class="w-full md:h-96 h-44  bg-slate-200 bg-cover  justify-center place-items-center flex">
+<div class="min-h-screen max-h-fit w-full flex flex-col bg-slate-100">
+    <div class="h-[4.5rem]"></div>
+
+    <div class="w-full md:h-96 h-44  bg-[url('/bg1.jpg')] bg-cover  justify-center place-items-center flex">
         <h1 class="text-6xl text-black">Contact</h1>
     </div>
     <div class="flex flex-col md:flex-row p-5 md:p-10 justify-center place-items-center gap-10">
