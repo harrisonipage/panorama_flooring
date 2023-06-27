@@ -20,7 +20,7 @@
 	</div>
 	<nav class="text-black w-full flex p-4 text-lg">
 		<ul class="flex flex-col gap-8 font-medium uppercase tracking-wide">
-			<li><a on:click={()=>drawerStore.close()}  href="/">home</a></li>
+			<li><a class="focus:ring-0" on:click={()=>drawerStore.close()}  href="/">home</a></li>
 			<li><a on:click={()=>drawerStore.close()}  href="/about">about us</a></li>
 			<li><a on:click={()=>drawerStore.close()}  href="/projects">projects</a></li>
 			<li><a on:click={()=>drawerStore.close()}  href="/contact">contact</a></li>
