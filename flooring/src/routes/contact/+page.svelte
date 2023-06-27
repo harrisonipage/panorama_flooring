@@ -20,7 +20,6 @@
                 <textarea class="resize-none border-t-0 border-r-0 border-l-0 focus:outline-none placeholder:text-black"  rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required/>
                 <button class="text-base px-10 btn btn-sm  rounded-none place-self-start bg-slate-300 ">Send Message</button>
             </form>
-
         </div>
         <div class="h-full w-full flex justify-center place-items-center leading-loose text-lg font-light text-black">
             <p>

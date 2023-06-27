@@ -1,13 +1,15 @@
-<script lang='ts'>
-	// The ordering of these imports is critical to your app working properly
-	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
-	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
-	import '@skeletonlabs/skeleton/styles/skeleton.css';
-	// Most of your app wide CSS should be put in this file
-	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+<script lang="ts">
+	// Your selected Skeleton theme:
+import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+
+// This contains the bulk of Skeletons required styles:
+import '@skeletonlabs/skeleton/styles/skeleton.css';
+
+// Finally, your application's global stylesheet (sometimes labeled 'app.css')
+import '../app.postcss';
+
+	import { AppBar } from '@skeletonlabs/skeleton';
 	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
-	import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import {fly} from 'svelte/transition'
 
 	let y = 0
@@ -15,56 +17,43 @@
 
 <Drawer position="top" rounded="none" bgDrawer="bg-white" height="h-fit">
 	<div class="h-[5rem] w-full">
-
 	</div>
-	<nav class="text-black w-full flex p-4 text-lg overflow-x-hidden no-underline">
-		<ul class="flex flex-col gap-8 font-semibold uppercase no-underline">
-			<a class="hover:text-yellow-400 no-underline" href="/"><li class="no-underline">home</li></a>
-			<a href="/about"><li>about us</li></a>
-			<a href="/projects"><li>projects</li></a>
-			<a href="/contact"><li>contact</li></a>
+	<nav class="text-black w-full flex p-4 text-lg overflow-x-hidden">
+		<ul class="flex flex-col gap-8 font-medium uppercase tracking-wide">
+			<li><a on:click={()=>drawerStore.close()}  href="/">home</a></li>
+			<li><a on:click={()=>drawerStore.close()}  href="/about">about us</a></li>
+			<li><a on:click={()=>drawerStore.close()}  href="/projects">projects</a></li>
+			<li><a on:click={()=>drawerStore.close()}  href="/contact">contact</a></li>
 		</ul>
 	</nav>
 </Drawer>
 <!-- App Shell -->
 			{#if (y>3)}
-			<div  class="fixed top-0 w-screen h-[4.5rem] underline border-b-gray-200 border z-[999] overflow-x-clip hidden md:block" in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
-				<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-black" background="bg-white">
+			<div  class="fixed top-0 w-screen h-[4.5rem] underline border-b-gray-200 border z-[999] overflow-x-clip " in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
+				<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-black" slotDefault="flex justify-center place-items-center" background="bg-white" slotTrail="flex justify-end">
 					<svelte:fragment slot="lead">
-						<img src="/logo.png" alt="logo" class="invert h-[4rem]" />
+						<a href="/"><img src="/logo.png" alt="logo" class="invert md:h-[4rem]"/></a>
 					</svelte:fragment>
 					<svelte:fragment>
-						<nav class="text-black w-full flex p-4 text-lg overflow-x-hidden no-underline">
-							<ul class="flex flex-row gap-8 font-semibold uppercase no-underline">
-								<a class="hover:text-yellow-400 no-underline" href="/"><li>home</li></a>
-								<a href="/about"><li>about us</li></a>
-								<a href="/projects"><li>projects</li></a>
-								<a href="/contact"><li>contact</li></a>
-							</ul>
+						<nav class="text-black w-full p-4 text-lg overflow-x-hidden hidden md:flex">
+							<ul class="flex flex-row gap-8 uppercase text-sm w-full justify-between font-medium ">
+								<li><a href="/">home</a></li>
+								<li><a href="/about">about</a></li>
+								<li><a href="/projects">projects</a></li>
+								<li><a href="/contact">contact</a></li>
+							</ul>						
 						</nav>
 					</svelte:fragment>
-				</AppBar>
-			</div>
-			{/if}
-			<div  class="fixed top-0 w-screen h-[5rem] underline border-b-gray-200 border z-[999] overflow-x-clip md:hidden">
-				<AppBar class="w-screen flex-col flex h-full justify-center text-black" background="bg-white">
-					<svelte:fragment slot="lead">
-						<strong class="text-xl uppercase no-underline">LOGO</strong>
-					</svelte:fragment>
 					<svelte:fragment slot="trail">
-						<button on:click={()=>(drawerStore.open())}>
-							<span> 
-								<svg viewBox="0 0 100 80" class="fill-black w-6 h-6"> 
-									<rect width="100" height="20" /> 
-									<rect y="30" width="100" height="20" />
-									<rect y="60" width="100" height="20" /> 
-								</svg> 
+						<button class="place-self-end md:hidden" on:click={() => drawerStore.open()}>
+							<span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><rect x="0" y="0" width="24" height="24" fill="none" stroke="none" /><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
 							</span>
 						</button>
 					</svelte:fragment>
 				</AppBar>
 			</div>
-
+			{/if}
 	<!-- Page Route Content -->
 	<slot />
 <div class="h-72 bg-slate-200 flex flex-col p-10 text-black">
