@@ -1,5 +1,5 @@
-<div class="w-full h-fit flex justify-center flex-col gap-20 bg-slate-200">
-    <div class="w-full h-screen  bg-[url('https://www.premiertower.com.au/resources/images/home/main_tower_1.jpg')] bg-contain bg-center md:bg-cover  justify-center place-items-center flex">
+<div class="w-full h-fit flex justify-center flex-col gap-20 bg-black">
+    <div class="w-full h-screen  bg-[url('https://www.premiertower.com.au/resources/images/home/main_tower_1.jpg')]  bg-center bg-cover  justify-center place-items-center flex">
     </div>
     <div class="w-full max-w-screen-2xl flex flex-col p-6 md:p-10 gap-10 ">
         <h1 class="text-xl">Premier Tower <span class="italic text-slate-500">Spencer St, Melbourne VIC 3000</span></h1>
