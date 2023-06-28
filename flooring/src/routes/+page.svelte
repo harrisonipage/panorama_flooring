@@ -8,7 +8,7 @@
 	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-[url('/test.png')] bg-cover bg-center">
 	</section>
 	<div class="h-fit flex flex-col w-full max-w-screen-2xl gap-10">
-		<div class="h-96 w-full flex justify-evenly p-5 md:p-10 flex-col">
+		<div class="h-[35rem] w-full flex justify-evenly p-5 md:p-10 flex-col">
 			<h1 class="text-4xl">Quality above all else</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed ">
 			We understand the importance of minimising delays on building projects. 
@@ -96,7 +96,7 @@
 						<input class="w-full bg-transparent border  border-l-0 border-r-0 border-t-0 placeholder:text-gray-300 focus:ring-0 focus:outline-none bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Name" required/>
 						<input class="w-full bg-transparent border  border-l-0 border-r-0 border-t-0  placeholder:text-gray-300 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Number" required/>
 					</div>
-					<input class="w-full bg-transparent border border-l-0 border-r-0 border-t-0  placeholder:text-gray-300 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" required/>
+					<input class="w-full bg-transparent border border-l-0 border-r-0 border-t-0 placeholder:text-gray-300 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" required/>
 					<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-300 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required/>
 					<button class="text-base px-10 btn btn-sm  rounded-none place-self-start bg-slate-700 ">Send Message</button>
 				</form>
