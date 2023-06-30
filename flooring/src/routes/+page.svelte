@@ -1,70 +1,65 @@
 <script>
 
 	import { enhance } from "$app/forms";
-
+	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="h-fit w-full justify-center flex flex-col place-items-center bg-black text-white gap-10 ">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-[url('/test.png')] bg-cover bg-center">
+<div class="h-fit w-full justify-center flex flex-col place-items-center bg-black text-white gap-10">
+	<section id="hero" class="w-full h-fit justify-center place-items-center flex bg-black bg-cover bg-bottom py-40 text-white p-10 flex-col gap-10">
+		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
+		<h1 class="text-2xl">Quality above all else</h1>
+		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center">
+		We understand the importance of minimising delays on building projects. 
+		This is why we are dedicated to providing a fast and efficient floor preparation 
+		service done by qualified and insured professionals with minimal interruptions.
+		</p>
 	</section>
-	<div class="h-fit flex flex-col w-full max-w-screen-2xl gap-10">
-		<div class="h-[35rem] w-full flex justify-evenly p-5 md:p-10 flex-col">
-			<h1 class="text-4xl">Quality above all else</h1>
-			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed ">
-			We understand the importance of minimising delays on building projects. 
-			This is why we are dedicated to providing a fast and efficient floor preparation 
-			service done by qualified and insured professionals with minimal interruptions.
-			</p>
-		</div>
-		<div class="flex h-screen w-full flex-col justify-between p-5 md:p-10">
+	<div class="h-fit flex flex-col w-full max-w-screen-2xl space-y-10">
+		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<h1 class="text-4xl">Featured Projects</h1>
-			<div class="h-2/3 w-full flex justify-center">
-				<div class="flex flex-row w-full gap-5  overflow-hidden">
-					<a class="h-full w-full" href="/projects/shangri-la">
-						<div class="h-full w-full overflow-hidden grid grid-cols-1 grid-rows-1">
-							<img src="https://images.unsplash.com/photo-1683790281028-120389677131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80" alt="test" class="max-w-none w-[60rem] duration-1000 hover:scale-[1.1] -translate-x-28" />
-							<div class="flex h-64 place-self-end justify-center place-items-end w-full z-20 p-5">
-								<div class="bg-slate-700	  w-full h-1/2 flex-col text-center flex justify-center">
-									<h1 class="text-3xl uppercase">Shangri La</h1>
-									<p class="text-sm">Exhibition St, Melbourne VIC 3000</p>
-								</div>
-							</div>
+			<div class="w-full flex flex-col md:flex-row gap-10">
+				<div class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 rounded-2xl place-items-center justify-center parent">
+					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
+						 <h1>Panorma Flooring <br/> <span class="text-sm">Building Development</span></h1>
 						</div>
-					</a>
-					<a class="h-full w-full hidden md:block" href="/projects/shangri-la">
-						<div class="h-full w-full overflow-hidden grid grid-cols-1 grid-rows-1">
-							<img src="https://images.unsplash.com/photo-1683790281028-120389677131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80" alt="test" class="max-w-none w-[60rem] duration-1000 hover:scale-[1.1]" />
-							<div class="flex h-64 place-self-end justify-center place-items-end w-full z-20 p-5">
-								<div class="bg-slate-700	  w-full h-1/2 flex-col text-center flex justify-center">
-									<h1 class="text-3xl uppercase">Shangri La</h1>
-									<p class="text-sm">Exhibition St, Melbourne VIC 3000</p>
-								</div>
-							</div>
-						</div>
-					</a>
-					<a class="h-full w-full hidden md:block" href="/projects/shangri-la">
-						<div class="h-full w-full overflow-hidden grid grid-cols-1 grid-rows-1">
-							<img src="https://images.unsplash.com/photo-1683790281028-120389677131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80" alt="test" class="max-w-none w-[60rem] duration-1000 hover:scale-[1.1]" />
-							<div class="flex h-64 place-self-end justify-center place-items-end w-full z-20 p-5">
-								<div class="bg-slate-700	  w-full h-1/2 flex-col text-center flex justify-center">
-									<h1 class="text-3xl uppercase">Shangri La</h1>
-									<p class="text-sm">Exhibition St, Melbourne VIC 3000</p>
-								</div>
-							</div>
-						</div>
-					</a>
+					<img class="col-start-1 row-start-1" alt="test" src="https://images.unsplash.com/photo-1583032586422-4a31c5386d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" />
 				</div>
-
+				<div class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 rounded-2xl place-items-center justify-center parent">
+					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
+						 <h1>Panorma Flooring <br/> <span class="text-sm">Building Development</span></h1>
+						</div>
+					<img class="col-start-1 row-start-1" alt="test" src="https://images.unsplash.com/photo-1583032586422-4a31c5386d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" />
+				</div>
+				<div class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 rounded-2xl place-items-center justify-center parent">
+					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
+						 <h1>Panorma Flooring <br/> <span class="text-sm">Building Development</span></h1>
+						</div>
+					<img class="col-start-1 row-start-1" alt="test" src="https://images.unsplash.com/photo-1583032586422-4a31c5386d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" />
+				</div>
 			</div>
-			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline"><a href="/projects">View All Projects</a></h2>
+			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline active:scale-95"><a href="/projects">View All Projects</a></h2>
 		</div>
-		<div class="min-h-screen max-h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
-			<h1 class="text-4xl">Services</h1>
+		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
+			<h1 class="text-4xl">Our Services</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
 				Ready to provide all flooring services and materials necessary to complete any job, 
 				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Leveling</span> with top of the line machinery to support our staff.
 			</p>
+
+	<Accordion autocollapse>
+		<AccordionItem>
+			<svelte:fragment slot="lead">Subcontractor</svelte:fragment>
+			<svelte:fragment slot="content">(content)</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead">(icon)</svelte:fragment>
+			<svelte:fragment slot="summary">(summary)</svelte:fragment>
+			<svelte:fragment slot="content">(content)</svelte:fragment>
+		</AccordionItem>
+		<!-- ... -->
+	</Accordion>
+
 			<!---
 			<div class="w-full h-screen flex flex-row flex-wrap gap-5 justify-center">
 				<div class="flex h-72 aspect-[3/2] justify-center place-items-center text-white  overflow-clip">
@@ -111,3 +106,18 @@
 		</div>
 	</div>
 </div>
+
+
+<style>
+
+	.parent{
+		display: grid;
+	}
+
+	.child{
+		display: flex;
+	}
+	.parent:hover .child {
+ 		 opacity: 1
+}
+</style>

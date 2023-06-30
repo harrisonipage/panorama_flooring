@@ -4,7 +4,6 @@
 
 </script>
 <div class="min-h-screen max-h-fit w-full flex flex-col bg-black text-white">
-    <div class="h-[4.5rem]"></div>
 
     <div class="w-full md:h-96 h-44  bg-[url('https://images.unsplash.com/photo-1603777727304-67a9084542cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2978&q=80')] bg-bottom bg-cover justify-center place-items-center flex mb-16 md:mb-24 grayscale">
         <h1 class="text-4xl text-black font-bold"></h1>

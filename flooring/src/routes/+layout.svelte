@@ -12,14 +12,54 @@
 	import { Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import {fly} from 'svelte/transition'
 
-	let y = 3
-	export let data
+	let y = 0
+	let oldScroll = 0
+	let up = true
+	let open = false
+	let showing = false
+
+	
+	function scrollhandle(){
+		if (showing || y<=0 ){
+			up = true
+			return
+		}
+		if (open){
+			up = true
+			return
+		}
+		if( oldScroll > y){
+			oldScroll = y
+			up = true
+		}
+		else{
+			oldScroll = y
+			up = false
+		}
+	}
+
+	function showMenu() {
+		console.log('here')
+		let nav = document.getElementById('nav')
+		if (nav){
+			nav.classList.toggle('-translate-y-full')
+			showing = !showing
+		}
+	}
+	function showMobileMenu(){
+		if (open){
+			drawerStore.close()
+			open = !open
+		}
+		else{
+			drawerStore.open()
+			open = !open
+		}
+	}
 </script>
-<Drawer position="top" rounded="none" bgDrawer="bg-black" height="h-fit">
-	<div class="h-[5rem] w-full">
-	</div>
-	<nav class="w-full flex p-4 text-lg focus:ring-0">
-		<ul class="flex flex-col gap-8 font-medium uppercase tracking-wide">
+<Drawer position="right" rounded="none" bgDrawer="bg-black" height="h-full" width="w-full" bgBackdrop="bg-none">
+	<nav class="w-full flex p-4 text-lg focus:ring-0 h-full justify-center">
+		<ul class="flex flex-col gap-8 font-medium uppercase tracking-wide justify-center place-items-center">
 			<li><a class="focus:ring-0" on:click={()=>drawerStore.close()}  href="/">home</a></li>
 			<li><a on:click={()=>drawerStore.close()}  href="/about">about us</a></li>
 			<li><a on:click={()=>drawerStore.close()}  href="/projects">projects</a></li>
@@ -27,10 +67,20 @@
 		</ul>
 	</nav>
 </Drawer>
-
-{#if (data.url === '/')}
-	{#if (y>40)}	
-	<div  class="fixed top-0 w-screen h-[4.5rem] z-[999] overflow-x-clip border-b-gray-600 border-b" in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
+{#if up}
+<button on:click={showMenu} class="fixed top-2 right-5 h-fit w-fit z-[1000] hidden md:block active:scale-95" in:fly={{ x: 100, duration: 400 }} out:fly={{ x: 100, duration: 400 }}>
+	<span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><rect x="0" y="0" width="24" height="24" fill="none" stroke="none" /><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+	</span>
+</button>
+<button on:click={showMobileMenu} class="fixed top-2 right-5 h-fit w-fit z-[1000] md:hidden" in:fly={{ x: 100, duration: 400 }} out:fly={{ x: 100, duration: 400 }}>
+	<span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><rect x="0" y="0" width="24" height="24" fill="none" stroke="none" /><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+	</span>
+</button>
+{/if}
+<main>
+	<div id='nav' class="fixed top-0 w-screen h-[4.5rem] z-[999] overflow-x-clip border-b-gray-600 border-b -translate-y-full duration-200 hidden md:block" in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
 		<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-white border-b-white" slotDefault="flex justify-center place-items-center" background="bg-black" slotTrail="flex justify-end">
 			<svelte:fragment slot="lead">
 				<a href="/"><img src="/logo.png" alt="logo" class="md:h-[3rem]"/></a>
@@ -54,9 +104,9 @@
 			</svelte:fragment>
 		</AppBar>
 	</div>
-	{/if}
+	<!---
 {:else}
-<div  class="fixed top-0 w-screen h-[4.5rem] border-b-gray-600 	 z-[999] overflow-x-clip border-b" out:fly={{ y: -100, duration: 400 }}>
+<div  class="fixed top-0 w-screen h-[4.5rem] border-b-gray-600 z-[999] overflow-x-clip border-b" out:fly={{ y: -100, duration: 400 }}>
 	<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-white" slotDefault="flex justify-center place-items-center" background="bg-black" slotTrail="flex justify-end">
 		<svelte:fragment slot="lead">
 			<a href="/"><img src="/logo.png" alt="logo" class="md:h-[3rem]"/></a>
@@ -80,7 +130,7 @@
 		</svelte:fragment>
 	</AppBar>
 </div>
-{/if}
+-->
 <slot />
 
 <div class="h-fit bg-black border-t border-t-gray-800 flex flex-col p-10 text-white gap-10">
@@ -99,5 +149,5 @@
 		<h1>© 2023, Panorama Flooring <span class="italic">designed by <a href="/">hp</a></span></h1>
 	</div>
 </div>
-
-<svelte:window bind:scrollY={y}/>
+</main>
+<svelte:window bind:scrollY={y} on:scroll={scrollhandle}/>
