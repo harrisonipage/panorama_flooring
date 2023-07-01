@@ -1,4 +1,4 @@
-<div class="w-full h-full py-20 flex flex-col justify-center bg-black place-items-center">
+<div class="w-full h-full py-20 flex flex-col justify-center place-items-center bg-white">
     <div class="w-full max-w-screen-2xl min-h-screen max-h-fit flex flex-col p-5 md:p-10 gap-10">
         <div class="h-screen w-full flex flex-col gap-10">
             <h1 class="text-xl">Premier Tower <br/> <span class="italic text-slate-500">Spencer St, Melbourne VIC 3000</span></h1>

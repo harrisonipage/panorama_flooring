@@ -1,4 +1,4 @@
-<div class="w-full h-fit flex justify-center flex-col gap-20 bg-black">
+<div class="w-full h-fit flex justify-center flex-col gap-20 dark:bg-black">
     <div class="w-full h-screen  bg-[url('https://www.premiertower.com.au/resources/images/home/main_tower_1.jpg')]  bg-center bg-cover  justify-center place-items-center flex">
     </div>
     <div class="w-full max-w-screen-2xl flex flex-col p-6 md:p-10 gap-10 ">
