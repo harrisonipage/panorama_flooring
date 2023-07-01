@@ -4,10 +4,14 @@
 	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="h-fit w-full justify-center flex flex-col place-items-center dark:bg-black text-black dark:text-white gap-10">
+<div class="h-fit w-full justify-center flex flex-col place-items-center dark:bg-black text-black dark:text-white gap-10 mb-20">
 	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom dark:text-white p-10 flex-col gap-10">
 		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
-		<h1 class="text-2xl">Quality above all else</h1>
+		<h1 class="text-3xl font-medium">Quality above all else</h1>
+		<p class="min-w-96 max-w-screen-md text-center text-lg">We understand the importance of minimising delays on building projects. 
+			This is why we are dedicated to providing a fast and efficient floor preparation 
+			service done by qualified and insured professionals with minimal interruptions.
+			</p>
 		<div class="flex flex-col md:flex-row gap-5 md:gap-10 w-full justify-center cursor-pointer pointer-events-auto">
 			<a class=" px-5 py-3 border-gray-400 dark:bg-white bg-black text-white dark:text-black w-full md:w-48 text-center active:scale-95 duration-200" href="/"> About </a>
 			<a class=" px-5 py-3 border dark:border-white border-black w-full md:w-48 text-center dark:text-white active:scale-95 duration-200" href="/"> Contact</a>
@@ -15,9 +19,6 @@
 	</section>
 	<div class="h-fit flex flex-col w-full max-w-screen-2xl space-y-10">
 		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center text-black">
-			We understand the importance of minimising delays on building projects. 
-			This is why we are dedicated to providing a fast and efficient floor preparation 
-			service done by qualified and insured professionals with minimal interruptions.
 			</p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<h1 class="text-4xl">Featured Projects</h1>
@@ -44,25 +45,20 @@
 			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline active:scale-95"><a href="/projects">View All Projects</a></h2>
 		</div>
 		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
+			<h1 class="text-4xl">Our Approach</h1>
+			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
+				We understand the importance of minimising delays on building projects. 
+			This is why we are dedicated to providing a fast and efficient floor preparation 
+			service done by qualified and insured professionals with minimal interruptions.
+				</p>
+		</div>
+		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
 			<h1 class="text-4xl">Our Services</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
 				Ready to provide all flooring services and materials necessary to complete any job, 
 				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Leveling</span> with top of the line machinery to support our staff.
 			</p>
-
-	<Accordion autocollapse>
-		<AccordionItem>
-			<svelte:fragment slot="lead">Subcontractor</svelte:fragment>
-			<svelte:fragment slot="content">(content)</svelte:fragment>
-		</AccordionItem>
-		<AccordionItem>
-			<svelte:fragment slot="lead">(icon)</svelte:fragment>
-			<svelte:fragment slot="summary">(summary)</svelte:fragment>
-			<svelte:fragment slot="content">(content)</svelte:fragment>
-		</AccordionItem>
-		<!-- ... -->
-	</Accordion>
 
 			<!---
 			<div class="w-full h-screen flex flex-row flex-wrap gap-5 justify-center">
@@ -87,7 +83,7 @@
 			</div>
 			-->
 		</div>
-		<div class="flex min-h-screen flex-col md:flex-row p-5 md:p-10 justify-center place-items-center gap-10">
+		<div class="flex h-fit flex-col md:flex-row p-5 md:p-10 justify-center gap-10">
 			<div class="w-full h-full flex flex-col justify-evenly gap-20">
 				<h1 class="text-4xl">Get In Touch</h1>
 				<form class="flex flex-col w-full gap-5 dark:text-white text-black" method="POST" use:enhance>
@@ -100,9 +96,8 @@
 					<button class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200"> Send Message</button>
 
 				</form>
-	
 			</div>
-			<div class="h-full w-full flex justify-center place-items-center leading-loose text-lg font-light">
+			<div class="h-full w-full flex justify-center place-items-center leading-loose text-lg font-light place-self-center">
 				<p>
 					We believe communication is key when it comes to delivering the right commercial flooring solution. It all starts here.
 					If you have any questions about the flooring products or services we provide, please don't hesitate to contact us today.
