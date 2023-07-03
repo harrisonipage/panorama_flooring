@@ -4,7 +4,7 @@
 	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="h-fit w-full justify-center flex flex-col place-items-center dark:bg-black text-black dark:text-white gap-10 mb-20">
+<div class="h-fit w-full justify-center flex flex-col place-items-center dark:bg-black text-black dark:text-white gap-10 mb-20 md:space-y-20">
 	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom dark:text-white p-10 flex-col gap-10">
 		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
 		<h1 class="text-3xl font-medium">Quality above all else</h1>
@@ -44,7 +44,7 @@
 			</div>
 			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline active:scale-95"><a href="/projects">View All Projects</a></h2>
 		</div>
-		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly md:hidden">
+		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly hidden">
 			<h1 class="text-4xl">Our Approach</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
 				We understand the importance of minimising delays on building projects. 
@@ -52,8 +52,14 @@
 			service done by qualified and insured professionals with minimal interruptions.
 				</p>
 		</div>
+	</div>
+	<div class="md:h-[20rem] h-[10rem] w-full justify-center flex place-items-center bg-[url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover dark:hidden">
+		<h1 class="text-4xl">Our Services</h1>
+	</div>
+	<div class="md:h-[20rem] h-[10rem] w-full justify-center place-items-center bg-[url('https://images.unsplash.com/photo-1496150458551-140441714f2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-center bg-cover hidden dark:flex">
+		<h1 class="text-4xl">Our Services</h1>
+	</div>
 		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly ">
-			<h1 class="text-4xl">Our Services</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
 				Ready to provide all flooring services and materials necessary to complete any job, 
@@ -104,7 +110,7 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	
 </div>
 
 
