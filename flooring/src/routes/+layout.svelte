@@ -83,7 +83,7 @@
 	</span>
 </button>
 {/if}
-<main class="dark:text-white text-black">
+<main class="dark:text-white text-black dark:bg-black">
 	<div id='nav' class="fixed top-0 w-screen h-[4.5rem] z-[999] overflow-x-clip border-b-gray-600 border-b duration-200 hidden md:block" in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
 		<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-white border-b-white" slotDefault="flex justify-center place-items-center" background="dark:bg-black bg-white" slotTrail="flex justify-end">
 			<svelte:fragment slot="lead">

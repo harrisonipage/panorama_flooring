@@ -1,4 +1,4 @@
-<div class="w-full h-fit flex justify-center flex-col gap-20 bg-black">
+<div class="w-full h-fit flex justify-center flex-col gap-20 dark:bg-black">
     <div class="w-full h-screen  bg-[url('https://westsideplace.com.au/wp-content/themes/wsp/dist/assets/images/apartments/WSP_view-01.jpg')] bg-cover md:bg-cover  justify-center place-items-center flex">
     </div>
     <div class="w-full max-w-screen-2xl flex flex-col p-6 md:p-10 gap-10">

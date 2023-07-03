@@ -1,4 +1,4 @@
-<div class="w-full h-fit flex justify-center flex-col gap-20 dark:bg-black bg ">
+<div class="w-full h-fit flex justify-center flex-col gap-20 dark:bg-black ">
     <div class="w-full h-screen bg-[url('https://images.unsplash.com/photo-1683790281028-120389677131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80')] bg-center bg-cover md:bg-cover  justify-center place-items-center flex">
     </div>
     <div class="w-full max-w-screen-2xl flex flex-col p-6 md:p-10 gap-10">
