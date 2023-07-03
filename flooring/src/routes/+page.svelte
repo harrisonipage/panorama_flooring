@@ -8,13 +8,13 @@
 	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom dark:text-white p-10 flex-col gap-10">
 		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
 		<h1 class="text-3xl font-medium">Quality above all else</h1>
-		<p class="min-w-96 max-w-screen-md text-center text-lg">We understand the importance of minimising delays on building projects. 
+		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block">We understand the importance of minimising delays on building projects. 
 			This is why we are dedicated to providing a fast and efficient floor preparation 
 			service done by qualified and insured professionals with minimal interruptions.
 			</p>
 		<div class="flex flex-col md:flex-row gap-5 md:gap-10 w-full justify-center cursor-pointer pointer-events-auto">
-			<a class=" px-5 py-3 border-gray-400 dark:bg-white bg-black text-white dark:text-black w-full md:w-48 text-center active:scale-95 duration-200" href="/"> About </a>
-			<a class=" px-5 py-3 border dark:border-white border-black w-full md:w-48 text-center dark:text-white active:scale-95 duration-200" href="/"> Contact</a>
+			<a class=" px-5 py-3 border-gray-400 dark:bg-white bg-black text-white dark:text-black w-full md:w-48 text-center active:scale-95 duration-200" href="/about"> About </a>
+			<a class=" px-5 py-3 border dark:border-white border-black w-full md:w-48 text-center dark:text-white active:scale-95 duration-200" href="/contact"> Contact</a>
 		</div>
 	</section>
 	<div class="h-fit flex flex-col w-full max-w-screen-2xl space-y-10">
@@ -44,7 +44,7 @@
 			</div>
 			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline active:scale-95"><a href="/projects">View All Projects</a></h2>
 		</div>
-		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
+		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly md:hidden">
 			<h1 class="text-4xl">Our Approach</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
 				We understand the importance of minimising delays on building projects. 
@@ -52,7 +52,7 @@
 			service done by qualified and insured professionals with minimal interruptions.
 				</p>
 		</div>
-		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly">
+		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly ">
 			<h1 class="text-4xl">Our Services</h1>
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
