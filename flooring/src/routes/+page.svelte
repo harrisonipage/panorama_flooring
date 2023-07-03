@@ -23,26 +23,28 @@
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<h1 class="text-4xl">Featured Projects</h1>
 			<div class="w-full flex flex-col md:flex-row gap-10 text-white">
-				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent" href="/projects/premier-tower">
+				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent object-cover" href="/projects/premier-tower">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
 						 <h1>Premier Tower<br/> <span class="text-sm">Building Development</span></h1>
-						</div>
-					<img class="col-start-1 row-start-1" alt="test" src="https://images.unsplash.com/photo-1583032586422-4a31c5386d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" />
+					</div>
+					<img class="col-start-1 row-start-1 h-full min-w-full" alt="test" src="https://www.premiertower.com.au/resources/images/home/main_tower_1.jpg" />
 				</a>
 				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent" href="/projects/shangri-la">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
 						 <h1>Shangri La <br/> <span class="text-sm">Building Development</span></h1>
 						</div>
-					<img class="col-start-1 row-start-1" alt="test" src="https://images.unsplash.com/photo-1583032586422-4a31c5386d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" />
+					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://images.unsplash.com/photo-1683790281028-120389677131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80" />
 				</a>
 				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent" href="/projects/west-side-place">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
 						 <h1 class="px-5 py-2 bg-slate-900 leading-tight">West Side Place<br/> <span class="text-sm">Building Development</span></h1>
 						</div>
-					<img class="col-start-1 row-start-1" alt="test" src="https://images.unsplash.com/photo-1583032586422-4a31c5386d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" />
+					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://westsideplace.com.au/wp-content/themes/wsp/dist/assets/images/apartments/WSP_view-01.jpg" />
 				</a>
 			</div>
-			<h2 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline active:scale-95"><a href="/projects">View All Projects</a></h2>
+			<a href="/projects">
+				<h1 class="text-2xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline w-fit">View All Projects</h1>
+			</a>
 		</div>
 		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly hidden">
 			<h1 class="text-4xl">Our Approach</h1>
