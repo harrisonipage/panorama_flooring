@@ -137,7 +137,7 @@
 -->
 <slot />
 
-<div class="h-fit dark:bg-black border-t border-t-gray-800 flex flex-col p-10  gap-10">
+<div class="h-fit dark:bg-[#171616] border-t border-t-gray-800 flex flex-col p-10  gap-10">
 	<div class="w-full h-full flex md:flex-row flex-col md:justify-between justify-center place-items-center gap-10">
 		<a href="/"><img src="/logo.png" alt="logo" class="md:h-[3rem] dark:invert-0 invert"/></a>
 		<div class="flex flex-row gap-2">

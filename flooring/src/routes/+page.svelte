@@ -5,7 +5,7 @@
 </script>
 
 <div class="h-fit w-full justify-center flex flex-col place-items-center dark:bg-black text-black dark:text-white gap-10 mb-20 md:space-y-20">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom dark:text-white p-10 flex-col gap-10">
+	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom dark:text-white p-10 flex-col gap-10 bg-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')]">
 		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
 		<h1 class="text-3xl font-medium">Quality above all else</h1>
 		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block">We understand the importance of minimising delays on building projects. 
@@ -23,23 +23,23 @@
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<h1 class="text-4xl">Featured Projects</h1>
 			<div class="w-full flex flex-col md:flex-row gap-10 text-white">
-				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent object-cover" href="/projects/premier-tower">
+				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent object-cover rounded-xl" href="/projects/premier-tower">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
 						 <h1>Premier Tower<br/> <span class="text-sm">Building Development</span></h1>
 					</div>
 					<img class="col-start-1 row-start-1 h-full min-w-full" alt="test" src="https://www.premiertower.com.au/resources/images/home/main_tower_1.jpg" />
 				</a>
-				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent" href="/projects/shangri-la">
+				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent rounded-xl" href="/projects/shangri-la">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
 						 <h1>Shangri La <br/> <span class="text-sm">Building Development</span></h1>
 						</div>
 					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://images.unsplash.com/photo-1683790281028-120389677131?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80" />
 				</a>
-				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent" href="/projects/west-side-place">
+				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent rounded-xl" href="/projects/west-side-place">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
 						 <h1 class="px-5 py-2 bg-slate-900 leading-tight">West Side Place<br/> <span class="text-sm">Building Development</span></h1>
 						</div>
-					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://westsideplace.com.au/wp-content/themes/wsp/dist/assets/images/apartments/WSP_view-01.jpg" />
+					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://images.unsplash.com/photo-1626277828338-48bcc0272f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80" />
 				</a>
 			</div>
 			<a href="/projects">
@@ -55,11 +55,48 @@
 				</p>
 		</div>
 	</div>
-	<div class="md:h-[20rem] h-[10rem] w-full justify-center flex place-items-center bg-[url('https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover dark:hidden">
-		<h1 class="text-4xl">Our Services</h1>
+	<div class="w-full h-fit overflow-x-scroll hide-scrollbar">
+		<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10 hide-scrollbar">
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="coles.png" class="aspect-auto h-40 rounded-xl">
+			</div>
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="harris.png" class="aspect-auto h-40 rounded-xl">
+			</div>
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="hickory.png" class="aspect-auto h-40 rounded-xl">
+			</div>
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="lendlease.png" class="aspect-auto h-40 rounded-xl">
+			</div>
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="mirvac.png" class="aspect-auto h-40 rounded-xl">
+			</div>
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="probuild.png" class="aspect-auto h-40 rounded-xl w-full">
+			</div>
+			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
+				<img src="mulitplex.png" class="aspect-auto h-40 rounded-xl">
+			</div>
+		</div>
 	</div>
-	<div class="md:h-[20rem] h-[10rem] w-full justify-center place-items-center bg-[url('https://images.unsplash.com/photo-1496150458551-140441714f2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-center bg-cover hidden dark:flex">
-		<h1 class="text-4xl">Our Services</h1>
+	<div class="flex flex-col md:flex-row justify-evenly w-full h-fit gap-10 p-5 md:p-10">
+		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl">
+			<h1>IMG</h1>
+			<h2>Service</h2>
+			<p>Description</p>
+		</div>
+		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl">
+			<h1>IMG</h1>
+			<h2>Service</h2>
+			<p>Description</p>
+		</div>
+		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl">
+			<h1>IMG</h1>
+			<h2>Service</h2>
+			<p>Description</p>
+		</div>
+
 	</div>
 		<div class="h-fit w-full flex flex-col p-5 md:p-10 gap-10 justify-evenly ">
 			<p class="md:w-1/2 w-full text-2xl font-light leading-relaxed">

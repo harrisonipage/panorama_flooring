@@ -1,5 +1,5 @@
 <div class="w-full h-fit flex justify-center flex-col gap-20 dark:bg-black">
-    <div class="w-full h-screen  bg-[url('https://westsideplace.com.au/wp-content/themes/wsp/dist/assets/images/apartments/WSP_view-01.jpg')] bg-cover md:bg-cover  justify-center place-items-center flex">
+    <div class="w-full h-screen  bg-[url('https://images.unsplash.com/photo-1626277828338-48bcc0272f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80')] bg-cover md:bg-cover  justify-center place-items-center flex">
     </div>
     <div class="w-full max-w-screen-2xl flex flex-col p-6 md:p-10 gap-10">
         <h1 class="text-xl">West Side Place <span class="italic text-slate-500">Spencer St, Melbourne VIC 3000</span></h1>
