@@ -21,6 +21,40 @@
 		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center text-black">
 			</p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
+			<h1 class="text-4xl">Why Us</h1>
+			<div class="w-full flex flex-col md:flex-row gap-10 text-white justify-center">
+				<div class="flex gap-5 justify-center flex-col place-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><path fill="currentColor" d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4q1.475 0 2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675h-4.45Zm0-2h4.45L13.9 7.6q-.1-.7-.637-1.15T12 6q-.725 0-1.263.45T10.1 7.6L9.775 10ZM12 10Zm-8 8v-.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.588 1.413T18 20H6q-.825 0-1.413-.588T4 18Zm2 0h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6 0Z"/></svg>
+					<h1 class="text-xl">Owner Operated</h1>
+				</div>
+				<div class="flex gap-5 justify-center flex-col place-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><path fill="currentColor" d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4q1.475 0 2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675h-4.45Zm0-2h4.45L13.9 7.6q-.1-.7-.637-1.15T12 6q-.725 0-1.263.45T10.1 7.6L9.775 10ZM12 10Zm-8 8v-.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2v.8q0 .825-.588 1.413T18 20H6q-.825 0-1.413-.588T4 18Zm2 0h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6 0Z"/></svg>
+					<h1 class="text-xl">Full Service</h1>
+				</div>
+				
+				<div class="flex gap-5 justify-center flex-col place-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><path fill="currentColor" d="m9.2 15.6l2.8-2.1l2.75 2.1l-1.05-3.4l2.8-2.2h-3.4L12 6.6L10.9 10H7.5l2.75 2.2l-1.05 3.4ZM12 22q-3.475-.875-5.737-3.988T4 11.1V5l8-3l8 3v6.1q0 3.8-2.263 6.913T12 22Zm0-2.1q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3Zm0-7.9Z"/></svg>
+					<h1 class="text-xl">Premimum Materials</h1>
+				</div>
+				
+				<div class="flex gap-5 justify-center flex-col place-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><path fill="currentColor" d="m9.2 15.6l2.8-2.1l2.75 2.1l-1.05-3.4l2.8-2.2h-3.4L12 6.6L10.9 10H7.5l2.75 2.2l-1.05 3.4ZM12 22q-3.475-.875-5.737-3.988T4 11.1V5l8-3l8 3v6.1q0 3.8-2.263 6.913T12 22Zm0-2.1q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3Zm0-7.9Z"/></svg>
+					<h1 class="text-xl">Competitive Pricing</h1>
+				</div>
+				
+				<div class="flex gap-5 justify-center flex-col place-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24"><path fill="currentColor" d="M12 4q3.35 0 5.675 2.325T20 12q0 3.35-2.325 5.675T12 20q-3.35 0-5.675-2.325T4 12q0-3.35 2.325-5.675T12 4Zm0 14q2.5 0 4.25-1.75T18 12q0-2.5-1.75-4.25T12 6Q9.5 6 7.75 7.75T6 12q0 2.5 1.75 4.25T12 18Zm0-2.5q1.2 0 2.15-.688T15.5 13h-7q.4 1.125 1.35 1.813T12 15.5ZM8.5 10q0 .425.288.713T9.5 11q.425 0 .713-.288T10.5 10q0-.425-.288-.713T9.5 9q-.425 0-.713.288T8.5 10Zm5 0q0 .425.288.713T14.5 11q.425 0 .713-.288T15.5 10q0-.425-.288-.713T14.5 9q-.425 0-.713.288T13.5 10ZM1 6V4q0-1.25.875-2.125T4 1h2v2H4q-.425 0-.713.288T3 4v2H1Zm3 17q-1.25 0-2.125-.875T1 20v-2h2v2q0 .425.288.713T4 21h2v2H4Zm14 0v-2h2q.425 0 .713-.288T21 20v-2h2v2q0 1.25-.875 2.125T20 23h-2Zm3-17V4q0-.425-.288-.713T20 3h-2V1h2q1.25 0 2.125.875T23 4v2h-2Zm-9 6Z"/></svg>
+					<h1 class="text-xl">Free Quotes</h1>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<div class="h-fit flex flex-col w-full max-w-screen-2xl space-y-10">
+		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center text-black">
+			</p>
+		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<h1 class="text-4xl">Featured Projects</h1>
 			<div class="w-full flex flex-col md:flex-row gap-10 text-white">
 				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent object-cover rounded-xl" href="/projects/premier-tower">
@@ -55,7 +89,12 @@
 				</p>
 		</div>
 	</div>
-	<div class="w-full h-fit overflow-x-scroll hide-scrollbar">
+	<div class="w-full h-fit overflow-x-scroll hide-scrollbar flex flex-col">
+		<div class="w-full h-full flex p-10">
+			<h1 class="h1">
+				They Trust Us
+			</h1>
+		</div>
 		<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10 hide-scrollbar">
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
 				<img src="coles.png" class="aspect-auto h-40 rounded-xl">
@@ -81,20 +120,20 @@
 		</div>
 	</div>
 	<div class="flex flex-col md:flex-row justify-evenly w-full h-fit gap-10 p-5 md:p-10">
-		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl">
+		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl p-5 gap-5">
 			<h1>IMG</h1>
-			<h2>Service</h2>
-			<p>Description</p>
+			<h2>Expoxy Flooring Melbourne</h2>
+			<p>Epoxy Coatings offer an attractive and easy flooring solution. We can transform any floor space from warehouses and automotive workshops to food factories and retail spaces.</p>
 		</div>
-		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl">
+		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl p-5 gap-5">
 			<h1>IMG</h1>
-			<h2>Service</h2>
-			<p>Description</p>
+			<h2>Concrete Grind and Sealing</h2>
+			<p>We offer a range of concrete grinding and sealing services to prepare your floors for alternative flooring options and provide a long lasting protective finish</p>
 		</div>
-		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl">
+		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-800 rounded-xl p-2 gap-5">
 			<h1>IMG</h1>
-			<h2>Service</h2>
-			<p>Description</p>
+			<h2>Epoxy Flake Flooring</h2>
+			<p>Known as epoxy flake coating, our decorative flooring solutions are sustainable and ideal for wet areas such as bathrooms and toilet areas. Add decorative flake chips to create a unique look</p>
 		</div>
 
 	</div>
@@ -144,8 +183,9 @@
 			</div>
 			<div class="h-full w-full flex justify-center place-items-center leading-loose text-lg font-light place-self-center">
 				<p>
-					We believe communication is key when it comes to delivering the right commercial flooring solution. It all starts here.
-					If you have any questions about the flooring products or services we provide, please don't hesitate to contact us today.
+					We believe communication is key when it comes to delivering the right commercial floor
+preparation service. It all starts here. If you have any questions about the flooring products
+or services we provide, you can contact us today for a FREE Quote.
 				</p>
 			</div>
 		</div>
