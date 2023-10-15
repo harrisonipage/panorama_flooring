@@ -83,7 +83,7 @@
 	</span>
 </button>
 {/if}
-<main class="dark:text-white text-black dark:bg-black">
+<main class="dark:text-white bg-gray-100">
 	<div id='nav' class="fixed top-0 w-screen h-[4.5rem] z-[999] overflow-x-clip border-b-gray-600 border-b duration-200 hidden md:block -translate-y-full" in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
 		<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-white border-b-white" slotDefault="flex justify-center place-items-center" background="dark:bg-black bg-surface-100" slotTrail="flex justify-end">
 			<svelte:fragment slot="lead">
@@ -137,7 +137,7 @@
 -->
 <slot />
 
-<div class="h-fit dark:bg-[#171616] border-t border-t-gray-800 flex flex-col p-10  gap-10">
+<div class="h-fit dark:bg-gray-400 border-t border-t-gray-800 flex flex-col p-10  gap-10">
 	<div class="w-full h-full flex md:flex-row flex-col md:justify-between justify-center place-items-center gap-10">
 		<a href="/"><img src="/logo.png" alt="logo" class="md:h-[3rem] dark:invert-0 invert"/></a>
 		<div class="flex flex-row gap-2">
