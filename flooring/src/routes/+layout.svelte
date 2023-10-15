@@ -67,9 +67,7 @@
 		</ul>
 	</nav>
 </Drawer>
-<div class="fixed top-5 right-20 z-[1000000]">
-	<LightSwitch></LightSwitch>
-</div>
+
 
 {#if up}
 <button on:click={showMenu} class="fixed top-2 right-5 h-fit w-fit z-[1000] hidden md:block active:scale-95" in:fly={{ x: 100, duration: 400 }} out:fly={{ x: 100, duration: 400 }}>
@@ -136,6 +134,29 @@
 </div>
 -->
 <slot />
+<div class="flex h-fit flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-white">
+	<div class="w-full h-full flex flex-col justify-evenly gap-20">
+		<h1 class="text-4xl">Get In Touch</h1>
+		<form class="flex flex-col w-full gap-5 dark:text-white text-black" method="POST" use:enhance>
+			<div class="flex flex-row w-full gap-5">			
+				<input class="w-full border  border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 focus:outline-none bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Name" required/>
+				<input class="w-full  border  border-l-0 border-r-0 border-t-0  placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Number" required/>
+			</div>
+			<input class="w-full  border border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" required/>
+			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required/>
+			<button class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-black"> Send Message</button>
+
+		</form>
+	</div>
+	<div class="h-full w-full flex justify-center place-items-center leading-loose text-lg font-light place-self-center">
+		<p>
+			We believe communication is key when it comes to delivering the right commercial floor
+			preparation service. It all starts here. If you have any questions about the flooring products
+			or services we provide, you can contact us today for a FREE Quote.
+		</p>
+	</div>
+</div>
+
 
 <div class="h-fit dark:bg-gray-400 border-t border-t-gray-800 flex flex-col p-10  gap-10">
 	<div class="w-full h-full flex md:flex-row flex-col md:justify-between justify-center place-items-center gap-10">
