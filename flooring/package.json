@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^3.0.1"
+		"@sveltejs/adapter-vercel": "^3.0.1",
+		"@vercel/analytics": "^1.1.1"
 	}
 }
