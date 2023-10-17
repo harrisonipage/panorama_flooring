@@ -117,27 +117,24 @@
 			</div>
 		</div>
 	</div>
-	<div class="flex flex-col md:flex-row justify-evenly w-full h-fit gap-10 p-5 md:p-10 bg-white">
-		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-200 rounded-xl p-5 gap-5">
+	<div class="flex flex-col md:flex-row justify-center w-full h-fit gap-10 p-5 md:p-10 bg-white">
+		<div class="flex w-full md:w-1/3 flex-col justify-evenly place-items-center bg-gray-200 rounded-xl p-5 gap-5">
 			<div class="aspect-square w-4/5 bg-white rounded-full flex justify-center place-items-center overflow-hidden">
 				<img src="SelfLevel.jpg" class="h-full">
 			</div>
-			<h2>Expoxy Flooring Melbourne</h2>
-			<p>Epoxy Coatings offer an attractive and easy flooring solution. We can transform any floor space from warehouses and automotive workshops to food factories and retail spaces.</p>
+			<h2>Floor Leveling</h2>
+			<p>Our experts will help you choose the right levelling compound for your job.
+				We can level any area no matter the size or complexity, specializing in levelling apartments,
+				common areas, hotels and more.</p>
 		</div>
-		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-200 rounded-xl p-5 gap-5">
+		<div class="flex w-full md:w-1/3 flex-col justify-evenly place-items-center bg-gray-200 rounded-xl p-5 gap-5">
 			<div class="aspect-square w-4/5 bg-white rounded-full flex justify-center place-items-center overflow-hidden">
 				<img src="Griding.jpg" class="h-full">
 			</div>			
 			<h2>Concrete Grind and Sealing</h2>
-			<p>We offer a range of concrete grinding and sealing services to prepare your floors for alternative flooring options and provide a long lasting protective finish</p>
-		</div>
-		<div class="flex w-full flex-col justify-evenly place-items-center bg-gray-200 rounded-xl p-5 gap-5">
-			<div class="aspect-square w-4/5 bg-white rounded-full flex justify-center place-items-center overflow-hidden">
-				<h1>IMG</h1>
-			</div>			
-			<h2>Epoxy Flake Flooring</h2>
-			<p>Known as epoxy flake coating, our decorative flooring solutions are sustainable and ideal for wet areas such as bathrooms and toilet areas. Add decorative flake chips to create a unique look</p>
+			<p>Sealing: Equipped with top of the line machinery for all aspects of
+				concrete grinding, we offer floor preparation services for lease residences, offices and
+				warehouses.</p>
 		</div>
 
 	</div>
