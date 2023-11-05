@@ -38,7 +38,7 @@
 				</a>
 				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent rounded-xl" href="/projects/west-side-place">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
-						 <h1 class="px-5 py-2 bg-slate-900 leading-tight">West Side Place<br/> <span class="text-sm">Building Development</span></h1>
+						 <h1 class="px-5 py-2  leading-tight">West Side Place<br/> <span class="text-sm">Building Development</span></h1>
 						</div>
 					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://images.unsplash.com/photo-1626277828338-48bcc0272f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80" />
 				</a>
