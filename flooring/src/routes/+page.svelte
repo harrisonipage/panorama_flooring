@@ -4,8 +4,8 @@
 	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="h-fit w-full justify-center flex flex-col place-items-center bg-white text-black dark:text-black">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom text-black p-10 flex-col gap-10 bgz-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] bg-gray-100">
+<div class="h-fit w-full justify-center flex flex-col place-items-center bg-white text-white">
+	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom  p-10 flex-col gap-10 bgz-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] bg-[#091426]">
 		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
 		<h1 class="text-3xl font-medium">Quality above all else</h1>
 		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block">We understand the importance of minimising delays on building projects. 
@@ -13,13 +13,13 @@
 			service done by qualified and insured professionals with minimal interruptions.
 			</p>
 		<div class="flex flex-col md:flex-row gap-5 md:gap-10 w-full justify-center cursor-pointer pointer-events-auto">
-			<a class=" px-5 py-3 border-gray-400 dark:bg-white bg-black text-white dark:text-black w-full md:w-48 text-center active:scale-95 duration-200 rounded-lg" href="/about"> About </a>
-			<a class=" px-5 py-3 border dark:border-white border-black w-full md:w-48 text-center text-black active:scale-95 duration-200 rounded-lg" href="/contact"> Contact</a>
+			<a class=" px-5 py-3 border-white dark:bg-white bg-black text-white dark: w-full md:w-48 text-center active:scale-95 duration-200 rounded-lg" href="/about"> About </a>
+			<a class=" px-5 py-3 border dark:border-white border-white w-full md:w-48 text-center  active:scale-95 duration-200 rounded-lg" href="/contact"> Contact</a>
 		</div>
 	</section>
 	
-	<div class="h-fit flex flex-col w-full max-w-screen-2xl bg-gray-100">
-		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center text-black">
+	<div class="h-fit flex flex-col w-full max-w-screen-2xl bg-[#091426]">
+		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center ">
 			</p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<h1 class="text-4xl">Featured Projects</h1>
@@ -89,7 +89,7 @@
 	
 	
 	<div class="flex md:grid md:grid-cols-3 md:grid-rows-2 flex-col justify-center w-full h-fit gap-10 p-5 md:p-10 bg-white">
-		<div class="flex md:col-start-1 md:col-span-2 md:row-span-1 w-full md:flex-row flex-col justify-evenly place-items-center bg-gray-100 rounded-xl p-5 gap-5">
+		<div class="flex md:col-start-1 md:col-span-2 md:row-span-1 w-full md:flex-row flex-col justify-evenly place-items-center bg-[#091426] rounded-xl p-5 gap-5">
 			<div class="aspect-square w-full md:w-2/3 bg-white rounded-lg flex justify-center place-items-center overflow-hidden">
 				<img src="SelfLevel.jpg" class="h-full">
 			</div>
@@ -101,7 +101,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex md:col-start-1 md:col-span-2 md:row-span-1 w-full md:flex-row flex-col justify-evenly place-items-center bg-gray-100 rounded-xl p-5 gap-5">
+		<div class="flex md:col-start-1 md:col-span-2 md:row-span-1 w-full md:flex-row flex-col justify-evenly place-items-center bg-[#091426] rounded-xl p-5 gap-5">
 			<div class="aspect-square w-full md:w-2/3 bg-white rounded-lg flex justify-center place-items-center overflow-hidden">
 				<img src="Griding.jpg" class="h-full">
 			</div>
@@ -113,7 +113,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex w-full md:col-start-3 md:col-span-1 md:row-span-2 md:row-start-1 bg-gray-100 rounded-xl p-5">
+		<div class="flex w-full md:col-start-3 md:col-span-1 md:row-span-2 md:row-start-1 bg-[#091426] rounded-xl p-5">
 			<p class="w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
 				Ready to provide all flooring services and materials necessary to complete any job, 
@@ -122,10 +122,10 @@
 		</div>
 	</div>
 	<div class="h-fit flex flex-col w-full max-w-screen-2xl space-y-10">
-		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center text-black"></p>
+		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center "></p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
-			<div class="w-full flex text-black justify-center">
-				<div class="md:flex grid grid-cols-2 grid-flow-row md:flex-row gap-10 bg-gray-100 p-5 justify-center rounded-xl">
+			<div class="w-full flex  justify-center">
+				<div class="md:flex grid grid-cols-2 grid-flow-row md:flex-row gap-10 bg-white text-black p-5 justify-center rounded-xl">
 					<div class="flex gap-5 justify-center aspect-square rounded-lg flex-col place-items-center p-3 text-center">
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48"><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><circle cx="24" cy="11" r="7" fill="#2F88FF"/><path d="M4 41C4 32.1634 12.0589 25 22 25"/><path fill="#2F88FF" d="M28 29.2C28 28.1333 35 26 35 26C35 26 42 28.1333 42 29.2C42 37.7333 35 42 35 42C35 42 28 37.7333 28 29.2Z"/></g></svg>						<h1 class="text-xl">Owner Operated</h1>
 					</div>
