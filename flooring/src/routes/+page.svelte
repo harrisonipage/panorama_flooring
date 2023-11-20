@@ -5,7 +5,7 @@
 </script>
 
 <div class="h-fit w-full justify-center flex flex-col place-items-center bg-white  dark:">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom  p-10 flex-col gap-10 bgz-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] bg-gray-100">
+	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom bg-[#091426]  p-10 flex-col gap-10 bgz-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
 		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
 		<h1 class="text-3xl font-medium">Quality above all else</h1>
 		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block">We understand the importance of minimising delays on building projects. 
@@ -13,12 +13,12 @@
 			service done by qualified and insured professionals with minimal interruptions.
 			</p>
 		<div class="flex flex-col md:flex-row gap-5 md:gap-10 w-full justify-center cursor-pointer pointer-events-auto">
-			<a class=" px-5 py-3 border-gray-400 dark:bg-white bg-black text-white dark: w-full md:w-48 text-center active:scale-95 duration-200 rounded-lg" href="/about"> About </a>
-			<a class=" px-5 py-3 border dark:border-white border-black w-full md:w-48 text-center  active:scale-95 duration-200 rounded-lg" href="/contact"> Contact</a>
+			<a class=" px-5 py-3 border-white dark:bg-white bg-white text-[#091426] dark: w-full md:w-48 text-center active:scale-95 duration-200 rounded-lg" href="/about"> About </a>
+			<a class=" px-5 py-3 border dark:border-white border-white w-full md:w-48 text-center  active:scale-95 duration-200 rounded-lg" href="/contact"> Contact</a>
 		</div>
 	</section>
 	
-	<div class="h-fit flex flex-col w-full max-w-screen-2xl bg-gray-100">
+	<div class="h-fit flex flex-col w-full max-w-screen-2xl bg-[#091426] text-white">
 		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center ">
 			</p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
