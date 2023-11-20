@@ -134,7 +134,7 @@
 </div>
 -->
 <slot />
-<div class="flex min-h-screen place-items-center flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-white">
+<div class="flex min-h-screen place-items-center flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-[#091426] text-white">
 	<div class="w-full h-full flex flex-col justify-evenly gap-20">
 		<h1 class="text-4xl">Get In Touch</h1>
 		<form class="flex flex-col w-full gap-5 dark:text-white text-black" method="POST" use:enhance>
@@ -144,7 +144,7 @@
 			</div>
 			<input class="w-full  border border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" required/>
 			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit." required/>
-			<button class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-black"> Send Message</button>
+			<button class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white"> Send Message</button>
 
 		</form>
 	</div>
@@ -158,7 +158,7 @@
 </div>
 
 
-<div class="h-fit dark:bg-gray-400 border-t border-t-gray-800 flex flex-col p-10  gap-10">
+<div class="h-fit bg-[#091426] border-t border-t-gray-800 flex flex-col p-10  gap-10 text-white">
 	<div class="w-full h-full flex md:flex-row flex-col md:justify-between justify-center place-items-center gap-10">
 		<a href="/"><img src="/logo.png" alt="logo" class="md:h-[3rem] dark:invert-0 invert"/></a>
 		<div class="flex flex-row gap-2">
