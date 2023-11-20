@@ -61,7 +61,7 @@
 		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center text-black"></p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<div class="w-full flex text-black justify-center">
-				<div class="flex flex-col md:flex-row gap-10 bg-gray-100 p-5 justify-center rounded-xl">
+				<div class="md:flex grid grid-cols-2 grid-flow-row md:flex-row gap-10 bg-gray-100 p-5 justify-center rounded-xl">
 					<div class="flex gap-5 justify-center aspect-square rounded-lg flex-col place-items-center p-3 text-center">
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48"><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><circle cx="24" cy="11" r="7" fill="#2F88FF"/><path d="M4 41C4 32.1634 12.0589 25 22 25"/><path fill="#2F88FF" d="M28 29.2C28 28.1333 35 26 35 26C35 26 42 28.1333 42 29.2C42 37.7333 35 42 35 42C35 42 28 37.7333 28 29.2Z"/></g></svg>						<h1 class="text-xl">Owner Operated</h1>
 					</div>
