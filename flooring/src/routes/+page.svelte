@@ -59,30 +59,30 @@
 	</div>
 
 	<div class="w-full h-fit overflow-x-scroll hide-scrollbar flex flex-col bg-white md:py-10 py-5">
-		<div class="w-full h-full px-5 md:px-10">
+		<div class="w-full h-full px-5 md:px-10 hidden">
 			<h1 class="text-4xl">Our Clients</h1>
 		</div>
 		<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4  hide-scrollbar">
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="coles.png" class="aspect-auto h-40 rounded-xl">
+				<img src="coles.png" class="aspect-auto h-32 rounded-xl">
 			</div>
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="harris.png" class="aspect-auto h-40 rounded-xl">
+				<img src="harris.png" class="aspect-auto h-32 rounded-xl">
 			</div>
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="hickory.png" class="aspect-auto h-40 rounded-xl">
+				<img src="hickory.png" class="aspect-auto h-32 rounded-xl">
 			</div>
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="lendlease.png" class="aspect-auto h-40 rounded-xl">
+				<img src="lendlease.png" class="aspect-auto h-32 rounded-xl">
 			</div>
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="mirvac.png" class="aspect-auto h-40 rounded-xl">
+				<img src="mirvac.png" class="aspect-auto h-32 rounded-xl">
 			</div>
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="probuild.png" class="aspect-auto h-40 rounded-xl w-full">
+				<img src="probuild.png" class="aspect-auto h-32 rounded-xl w-full">
 			</div>
 			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="mulitplex.png" class="aspect-auto h-40 rounded-xl">
+				<img src="mulitplex.png" class="aspect-auto h-32 rounded-xl">
 			</div>
 		</div>
 	</div>
