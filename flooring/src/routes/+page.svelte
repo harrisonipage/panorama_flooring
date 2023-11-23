@@ -83,7 +83,50 @@
 			</div>
 		</div>
 	</div>
-	
+	<div class=" flex flex-col justify-center w-full h-fit gap-5 p-5 ">
+		<div class="flex flex-col md:flex-row justify-center gap-5 ">
+			<div class="w-full h-96 bg-pink rounded-xl grid grid-cols-1 grid-rows-1 overflow-hidden">
+				<div class="w-full h-full bg-slate-900 bg-opacity-50 col-start-1 row-start-1 z-10">
+
+				</div>
+				<img src="SelfLevel.jpg" class="h-full col-start-1 row-start-1">
+				<div class="row-start-1 col-start-1 place-self-end text-white z-20 w-full p-5 gap-2 flex-col flex text-center">
+					<h2 class="h1">Floor Leveling</h2>
+					<p class="hidden">Our experts will help you choose the right levelling compound for your job.
+						We can level any area no matter the size or complexity, specializing in levelling apartments,
+						common areas, hotels and more.
+					</p>				
+				</div>
+
+
+
+			</div>
+			<div class="w-full h-96 bg-pink rounded-xl grid grid-cols-1 grid-rows-1 overflow-hidden">
+				<div class="w-full h-full bg-slate-900 bg-opacity-50 col-start-1 row-start-1 z-10">
+
+				</div>
+				<img src="Griding.jpg" class="h-full w-auto col-start-1 row-start-1">
+				<div class="row-start-1 col-start-1 place-self-end text-white z-20 w-full p-5 gap-2 flex-col flex text-center">
+					<h2 class="h1">Concrete Grind and Sealing</h2>
+					<p class="hidden">Our experts will help you choose the right levelling compound for your job.
+						We can level any area no matter the size or complexity, specializing in levelling apartments,
+						common areas, hotels and more.
+					</p>			
+				</div>
+
+			</div>
+			
+
+		</div>
+		<div class="w-full h-fit bg-rounded-lg p-5">
+			<p class="w-full text-2xl font-light leading-relaxed">
+				Panorama Flooring can act as a Subcontractor or work directly with Builders.
+				Ready to provide all flooring services and materials necessary to complete any job, 
+				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Leveling</span> with top of the line machinery to support our staff.
+			</p>
+		</div>
+
+	</div>
 	
 	<div class="flex md:grid md:grid-cols-3 md:grid-rows-2 flex-col justify-center w-full h-fit gap-10 p-5 md:p-10 bg-white">
 		<div class="flex md:col-start-1 md:col-span-2 md:row-span-1 w-full md:flex-row flex-col justify-evenly place-items-center bg-gray-100 rounded-xl p-5 gap-5 hidden">
