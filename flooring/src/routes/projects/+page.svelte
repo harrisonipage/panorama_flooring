@@ -20,16 +20,7 @@
             <a href="/projects/shangri-la" class="text-base rounded-lg px-10 btn btn-sm text-white   place-self-start bg-[#091426] ">See More</a>
 
         </div>
-        <div class="h-screen w-full flex flex-col gap-10">
-            <h1 class="text-xl"> Cherry Creek Youth Justice <span class="italic text-slate-500">Little River, VIC </span></h1>
-            <div class="h-3/4 w-full bg-slate-200">
-            </div>
-        </div>
-        <div class="h-screen w-full flex flex-col gap-10">
-            <h1 class="text-xl"> Warehouse <span class="italic text-slate-500">Traver St, Port Melbourne VIC 3207 </span></h1>
-            <div class="h-3/4 w-full bg-slate-200">
-            </div>
-        </div>
+        
     </div>
 
 
