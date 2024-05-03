@@ -107,7 +107,7 @@
 				</div>
 				<img src="Griding.jpg" class="h-full w-auto col-start-1 row-start-1">
 				<div class="row-start-1 col-start-1 place-self-end text-white z-20 w-full p-5 gap-2 flex-col flex text-center">
-					<h2 class="h1">Concrete Grind and Sealing</h2>
+					<h2 class="h1">Concrete Grinding and Sealing</h2>
 					<p class="hidden">Our experts will help you choose the right levelling compound for your job.
 						We can level any area no matter the size or complexity, specializing in levelling apartments,
 						common areas, hotels and more.
