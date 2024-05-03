@@ -146,6 +146,8 @@
 			</div>
 			<input class="w-full  border border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" name="email" required />
 			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" name="message" placeholder="Tell us about your job" required/>
+			<input type="hidden" name="redirectTo" value="https://panoramaflooring.com.au"> <!-- Optional -->
+
 			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white"> Send Message</button>
 
 		</form>
