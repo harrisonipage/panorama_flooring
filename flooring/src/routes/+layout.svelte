@@ -174,7 +174,7 @@
 		</div>
 	</div>
 	<div class="justify-center place-items-center flex text-center">
-		<h1>© 2023, Panorama Flooring <span class="italic">built by <a href="/">hp</a></span></h1>
+		<h1>© 2024, Panorama Flooring</h1>
 	</div>
 </div>
 </main>

@@ -91,7 +91,7 @@
 				</div>
 				<img src="SelfLevel.jpg" class="h-full col-start-1 row-start-1">
 				<div class="row-start-1 col-start-1 place-self-end text-white z-20 w-full p-5 gap-2 flex-col flex text-center">
-					<h2 class="h1">Floor Leveling</h2>
+					<h2 class="h1">Floor Levelling</h2>
 					<p class="hidden">Our experts will help you choose the right levelling compound for your job.
 						We can level any area no matter the size or complexity, specializing in levelling apartments,
 						common areas, hotels and more.
@@ -134,7 +134,7 @@
 				<img src="SelfLevel.jpg" class="h-full">
 			</div>
 			<div class="flex flex-col gap-5 justify-evenly h-full">
-				<h2 class="h1">Floor Leveling</h2>
+				<h2 class="h1">Floor Levelling</h2>
 				<p>Our experts will help you choose the right levelling compound for your job.
 					We can level any area no matter the size or complexity, specializing in levelling apartments,
 					common areas, hotels and more.
@@ -157,7 +157,7 @@
 			<p class="w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
 				Ready to provide all flooring services and materials necessary to complete any job, 
-				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Leveling</span> with top of the line machinery to support our staff.
+				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Levelling</span> with top of the line machinery to support our staff.
 			</p>
 		</div>
 	</div>
