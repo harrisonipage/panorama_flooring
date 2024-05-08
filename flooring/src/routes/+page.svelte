@@ -122,7 +122,7 @@
 			<p class="w-full text-2xl font-light leading-relaxed">
 				Panorama Flooring can act as a Subcontractor or work directly with Builders.
 				Ready to provide all flooring services and materials necessary to complete any job, 
-				no matter the size or complexity. We are experts in <span class="font-bold">Floor Griding & Levelling</span> with top of the line machinery to support our staff.
+				no matter the size or complexity. We are experts in <span class="font-bold">Floor Grinding & Levelling</span> with top of the line machinery to support our staff.
 			</p>
 		</div>
 
