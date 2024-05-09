@@ -5,14 +5,17 @@
 </script>
 
 <div class="h-fit w-full justify-center flex flex-col place-items-center bg-white  dark:">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom bg-[#091426]  p-10 flex-col gap-10 bgz-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
-		<h1 class="text-6xl md:text-9xl text-center font-bold">PANORAMA FLOORING</h1>
-		<h1 class="text-3xl font-medium">Quality above all else</h1>
-		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block">We understand the importance of minimising delays on building projects. 
+	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom p-10 flex-col gap-10 bg-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
+		<div class="h-full w-full absolute bg-[#091426] bg-opacity-90">
+
+		</div>
+		<h1 class="text-6xl md:text-9xl text-center font-bold z-10">PANORAMA FLOORING</h1>
+		<h1 class="text-3xl font-medium z-10">Quality above all else</h1>
+		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block z-10">We understand the importance of minimising delays on building projects. 
 			This is why we are dedicated to providing a fast and efficient floor preparation 
 			service done by qualified and insured professionals with minimal interruptions.
 			</p>
-		<div class="flex flex-col md:flex-row gap-5 md:gap-10 w-full justify-center cursor-pointer pointer-events-auto">
+		<div class="flex flex-col md:flex-row gap-5 md:gap-10 w-full justify-center cursor-pointer pointer-events-auto z-10">
 			<a class=" px-5 py-3 border-white dark:bg-white bg-white text-[#091426] dark: w-full md:w-48 text-center active:scale-95 duration-200 rounded-lg" href="/about"> About </a>
 			<a class=" px-5 py-3 border dark:border-white border-white w-full md:w-48 text-center  active:scale-95 duration-200 rounded-lg" href="/contact"> Contact</a>
 		</div>
@@ -60,26 +63,26 @@
 
 	<div class="w-full h-fit overflow-x-scroll hide-scrollbar flex flex-col bg-white md:py-10 py-5">
 		<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4  hide-scrollbar">
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="coles.png" class="aspect-auto h-32 rounded-xl">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo1.jpg" class="aspect-auto h-14 rounded-xl">
 			</div>
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="harris.png" class="aspect-auto h-32 rounded-xl">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo2.png" class="aspect-auto h-14 rounded-xl">
 			</div>
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="hickory.png" class="aspect-auto h-32 rounded-xl">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo3.png" class="aspect-auto h-14 rounded-xl">
 			</div>
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="lendlease.png" class="aspect-auto h-32 rounded-xl">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo4.png" class="aspect-auto h-14 rounded-xl">
 			</div>
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="mirvac.png" class="aspect-auto h-32 rounded-xl">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo5.jpg" class="aspect-auto h-14 rounded-xl">
 			</div>
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="probuild.png" class="aspect-auto h-32 rounded-xl w-full">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo6.png" class="aspect-auto h-14 rounded-xl w-full">
 			</div>
-			<div class="snap-center shrink-0 py-20 w-full md:w-96 aspect-auto ">
-				<img src="mulitplex.png" class="aspect-auto h-32 rounded-xl">
+			<div class="snap-center shrink-0 py-20 w-fit aspect-auto ">
+				<img src="https://panoramaflooringimages.s3.ap-southeast-2.amazonaws.com/clogo7.jpg" class="aspect-auto h-14 rounded-xl">
 			</div>
 		</div>
 	</div>
@@ -161,7 +164,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="h-fit flex flex-col w-full max-w-screen-2xl space-y-10">
+	<div class="h-fit flex flex-col w-full max-w-screen-2xl">
 		<p class="md:w-1/2 w-full text-lg font-light leading-relaxed text-center "></p>
 		<div class="flex h-full w-full flex-col justify-between p-5 md:p-10 gap-10">
 			<div class="w-full flex  justify-center">
