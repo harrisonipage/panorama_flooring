@@ -75,12 +75,17 @@
 		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><rect x="0" y="0" width="24" height="24" fill="none" stroke="none" /><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
 	</span>
 </button>
-<button on:click={showMobileMenu} class="fixed top-2 right-5 h-fit w-fit z-[1000] md:hidden" in:fly={{ x: 100, duration: 400 }} out:fly={{ x: 100, duration: 400 }}>
-	<span>
-		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><rect x="0" y="0" width="24" height="24" fill="none" stroke="none" /><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
-	</span>
-</button>
+
 {/if}
+<div class="w-full h-16 fixed top-0 z-[1000] md:hidden bg-[#091426] border-b-gray-300 border-b" >
+	<a href="/" class="fixed top-2 left-5"><img src="/logo.png" alt="logo" class="h-10"/></a>
+
+	<button on:click={showMobileMenu} class="fixed top-2 right-5 h-fit w-fit z-[1000] md:hidden">
+		<span>
+			<svg class="text-white" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><rect x="0" y="0" width="24" height="24" fill="none" stroke="none" /><path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+		</span>
+	</button>
+</div>
 <main class="dark:text-white bg-gray-100">
 	<div id='nav' class="fixed top-0 w-screen h-[4.5rem] z-[999] overflow-x-clip border-b-gray-300 border-b duration-200 hidden md:block " in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
 		<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-white border-b-white" slotDefault="flex justify-center place-items-center" background="dark:bg-black bg-[#0a1629]" slotTrail="flex justify-end">

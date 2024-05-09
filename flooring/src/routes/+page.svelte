@@ -5,7 +5,7 @@
 </script>
 
 <div class="h-fit w-full justify-center flex flex-col place-items-center bg-white  dark:">
-	<section id="hero" class="w-full h-screen justify-center place-items-center flex bg-fixed bg-cover bg-bottom p-10 flex-col gap-10 bg-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
+	<section id="hero" class="w-full md:h-screen h-[50rem] justify-center place-items-center flex bg-fixed bg-cover bg-bottom p-10 flex-col gap-10 bg-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
 		<div class="h-full w-full absolute bg-[#091426] bg-opacity-90">
 
 		</div>
@@ -41,7 +41,7 @@
 				</a>
 				<a class="md:w-1/3 aspect-square overflow-hidden grid grid-cols-1 grid-rows-1 place-items-center justify-center parent rounded-xl" href="/projects/west-side-place">
 					<div class="row-start-1 col-start-1 text-2xl z-10 h-full w-full bg-black bg-opacity-30 duration-150 md:opacity-0 child justify-start place-items-end p-5 transition-all">
-						 <h1 class="px-5 py-2  leading-tight">West Side Place<br/> <span class="text-sm">Building Development</span></h1>
+						 <h1 class="leading-tight">West Side Place<br/> <span class="text-sm">Building Development</span></h1>
 						</div>
 					<img class="col-start-1 row-start-1 h-full" alt="test" src="https://images.unsplash.com/photo-1626277828338-48bcc0272f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2936&q=80" />
 				</a>
