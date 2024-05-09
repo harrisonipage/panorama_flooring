@@ -9,7 +9,7 @@
 		<div class="h-full w-full absolute bg-[#091426] bg-opacity-90 hidden md:block">
 
 		</div>
-		<h1 class="text-6xl md:text-9xl text-center font-bold z-10">PANORAMA FLOORING</h1>
+		<h1 class="text-5xl md:text-9xl text-center font-bold z-10">PANORAMA FLOORING</h1>
 		<h1 class="text-3xl font-medium z-10">Quality above all else</h1>
 		<p class="min-w-96 max-w-screen-md text-center text-lg hidden md:block z-10">We understand the importance of minimising delays on building projects. 
 			This is why we are dedicated to providing a fast and efficient floor preparation 
