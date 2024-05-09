@@ -5,8 +5,8 @@
 </script>
 
 <div class="h-fit w-full justify-center flex flex-col place-items-center bg-white  dark:">
-	<section id="hero" class="w-full md:h-screen h-[40rem] justify-center place-items-center flex bg-fixed bg-cover bg-bottom p-10 flex-col gap-10 bg-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
-		<div class="h-full w-full absolute bg-[#091426] bg-opacity-90">
+	<section id="hero" class="w-full md:h-screen h-[40rem] justify-center place-items-center flex bg-fixed bg-cover bg-bottom p-10 flex-col gap-10 bg-[#091426] md:bg-[url('https://images.unsplash.com/photo-1680754900504-bf6236cfc30f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80')] text-white">
+		<div class="h-full w-full absolute bg-[#091426] bg-opacity-90 hidden md:block">
 
 		</div>
 		<h1 class="text-6xl md:text-9xl text-center font-bold z-10">PANORAMA FLOORING</h1>
@@ -212,4 +212,6 @@
 	.parent:hover .child {
  		 opacity: 1
 }
+
+
 </style>

@@ -77,7 +77,7 @@
 </button>
 
 {/if}
-<div class="w-full h-16 fixed top-0 z-[1000] md:hidden bg-[#091426] border-b-gray-300 border-b" >
+<div class="w-full h-16 fixed top-0 z-[1000] md:hidden bg-[#091426] border-b-gray-300 border-b disable-dbl-tap-zoom" >
 	<a href="/" class="fixed top-2 left-5"><img src="/logo.png" alt="logo" class="h-10"/></a>
 
 	<button on:click={showMobileMenu} class="fixed top-2 right-5 h-fit w-fit z-[1000] md:hidden">
@@ -184,3 +184,10 @@
 </div>
 </main>
 <svelte:window bind:scrollY={y} on:scroll={scrollhandle}/>
+
+
+<style>
+	.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+</style>
