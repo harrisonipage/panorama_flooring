@@ -86,7 +86,7 @@
 		</span>
 	</button>
 </div>
-<main class="dark:text-white bg-gray-100">
+<main class="dark:text-white">
 	<div id='nav' class="fixed top-0 w-screen h-[4.5rem] z-[999] overflow-x-clip border-b-gray-300 border-b duration-200 hidden md:block " in:fly={{ y: -100, duration: 400 }} out:fly={{ y: -100, duration: 400 }}>
 		<AppBar gridColumns="grid-cols-3"  class="w-screen flex-col flex h-full justify-center text-white border-b-white" slotDefault="flex justify-center place-items-center" background="dark:bg-black bg-[#0a1629]" slotTrail="flex justify-end">
 			<svelte:fragment slot="lead">
@@ -150,7 +150,7 @@
 				<input class="w-full  border  border-l-0 border-r-0 border-t-0  placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Number" name="phone" required/>
 			</div>
 			<input class="w-full  border border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" name="email" required />
-			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" name="message" placeholder="Tell us about your job" required/>
+			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" name="message" placeholder="Tell us about your project" required/>
 			<input type="hidden" name="redirectTo" value="https://panoramaflooring.com.au"> <!-- Optional -->
 
 			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white"> Send Message</button>
