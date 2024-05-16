@@ -18,6 +18,9 @@
 	let open = false
 	let showing = false
 
+	function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
 	
 	function scrollhandle(){
 		if (showing || y<=0 ){
@@ -142,7 +145,7 @@
 <div class="flex min-h-screen place-items-center flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-[#091426] text-white">
 	<div class="w-full h-full flex flex-col justify-evenly gap-20">
 		<h1 class="text-4xl">Get In Touch</h1>
-		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submit" method="post">
+		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submit" method="post" id="demo-form">
 			<input type="hidden" name="accessKey" value="e06e357f-f13e-4ae5-837a-f4caef655c72">
 			<input type="text" name="honeypot" style="display: none;">
 			<div class="flex flex-row w-full gap-5">			
@@ -153,7 +156,10 @@
 			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" name="message" placeholder="Tell us about your project" required/>
 			<input type="hidden" name="redirectTo" value="https://panoramaflooring.com.au"> <!-- Optional -->
 
-			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white"> Send Message</button>
+			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white g-recaptcha" 
+			data-sitekey="6LfyoN4pAAAAAPkNkncHbEfHV1G3j5LTzxlHCYLG" 
+			data-callback='onSubmit' 
+			data-action='submit'> Send Message</button>
 
 		</form>
 	</div>
