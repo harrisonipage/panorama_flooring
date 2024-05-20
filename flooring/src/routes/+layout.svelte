@@ -141,7 +141,7 @@
 <div class="flex min-h-screen place-items-center flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-[#091426] text-white">
 	<div class="w-full h-full flex flex-col justify-evenly gap-20">
 		<h1 class="text-4xl">Get In Touch</h1>
-		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submit" method="post" id="demo-form">
+		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submit" method="post">
 			<input type="hidden" name="accessKey" value="e06e357f-f13e-4ae5-837a-f4caef655c72">
 			<input type="text" name="honeypot" style="display: none;">
 			<div class="flex flex-row w-full gap-5">			
@@ -151,9 +151,9 @@
 			<input class="w-full  border border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" name="email" required />
 			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" name="message" placeholder="Tell us about your project" required/>
 			<input type="hidden" name="redirectTo" value="https://panoramaflooring.com.au"> <!-- Optional -->
-			<div class="g-recaptcha" data-sitekey="6LfjrOIpAAAAAGvwNO-FgY2j1eWhLMNy2Hk79-Gm"></div>
+			<div class="g-recaptcha" data-sitekey="6LfjrOIpAAAAAGvwNO-FgY2j1eWhLMNy2Hk79-Gm" data-callback="enableBtn"></div>
 			<br/>
-			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white g-recaptcha"> Send Message</button>
+			<input type="button" value="Send Message" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white g-recaptcha" id="button1" disabled /> 
 
 		</form>
 	</div>
