@@ -17,10 +17,6 @@
 	let up = true
 	let open = false
 	let showing = false
-
-	function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
 	
 	function scrollhandle(){
 		if (showing || y<=0 ){
@@ -155,11 +151,9 @@
 			<input class="w-full  border border-l-0 border-r-0 border-t-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg" type="text" placeholder="Your Email" name="email" required />
 			<textarea class="resize-none border-t-0 border-r-0 border-l-0 placeholder:text-gray-100 focus:ring-0 bg-gray-700 bg-opacity-50 rounded-t-lg"  rows="4" name="message" placeholder="Tell us about your project" required/>
 			<input type="hidden" name="redirectTo" value="https://panoramaflooring.com.au"> <!-- Optional -->
-
-			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white g-recaptcha" 
-			data-sitekey="6LfyoN4pAAAAAPkNkncHbEfHV1G3j5LTzxlHCYLG" 
-			data-callback='onSubmit' 
-			data-action='submit'> Send Message</button>
+			<div class="g-recaptcha" data-sitekey="6LfjrOIpAAAAAGvwNO-FgY2j1eWhLMNy2Hk79-Gm"></div>
+			<br/>
+			<button type="submit" value="Submit" class="rounded-lg px-5 py-3 border-gray-400 border w-full md:w-48 text-center active:scale-95 duration-200 text-white g-recaptcha"> Send Message</button>
 
 		</form>
 	</div>
