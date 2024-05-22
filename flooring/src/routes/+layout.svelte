@@ -141,7 +141,7 @@
 <div class="flex min-h-screen place-items-center flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-[#091426] text-white hidden">
 	<div class="w-full h-full flex flex-col justify-evenly gap-20">
 		<h1 class="text-4xl">Get In Touch</h1>
-		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submit" method="post">
+		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submitz" method="post">
 			<input type="hidden" name="accessKey" value="e06e357f-f13e-4ae5-837a-f4caef655c72">
 			<input type="text" name="honeypot" style="display: none;">
 			<div class="flex flex-row w-full gap-5">			
