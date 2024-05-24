@@ -138,10 +138,10 @@
 </div>
 -->
 <slot />
-<div class="flex min-h-screen place-items-center flex-col md:flex-row p-5 md:p-10 justify-center gap-10 bg-[#091426] text-white hidden">
-	<div class="w-full h-full flex flex-col justify-evenly gap-20">
-		<h1 class="text-4xl">Get In Touch</h1>
-		<form class="flex flex-col w-full gap-5 dark:text-white text-white" action="https://api.staticforms.xyz/submitz" method="post">
+<div class="flex min-fit place-items-center flex-col p-5 md:p-10 py-20 justify-center gap-10 bg-[#091426] text-white">
+	<div class="w-full h-full flex flex-col justify-evenly gap-20 place-items-center">
+		<div class="text-4xl uppercase underline-offset-[15px] hover:text-gray-400 duration-150 underline"><a href="mailto:admin@panoramaflooring.com.au ?subject=Inquiry Panorama Flooring" class="flex-row flex gap-2"><span>Get In Touch</span> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M13 19c0-3.31 2.69-6 6-6c1.1 0 2.12.3 3 .81V6a2 2 0 0 0-2-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h9.09c-.05-.33-.09-.66-.09-1M4 8V6l8 5l8-5v2l-8 5zm16 14v-2h-4v-2h4v-2l3 3z"/></svg></a></div>
+		<form class="flex flex-col w-full gap-5 dark:text-white text-white hidden" action="https://api.staticforms.xyz/submitz" method="post">
 			<input type="hidden" name="accessKey" value="e06e357f-f13e-4ae5-837a-f4caef655c72">
 			<input type="text" name="honeypot" style="display: none;">
 			<div class="flex flex-row w-full gap-5">			
@@ -156,7 +156,7 @@
 
 		</form>
 	</div>
-	<div class="h-full w-full flex justify-center place-items-center leading-loose text-lg font-light place-self-center">
+	<div class="h-full w-full md:w-1/2  flex justify-center place-items-center leading-loose text-lg font-light place-self-center text-center">
 		<p>
 			We believe communication is key when it comes to delivering the right commercial floor
 			preparation service. It all starts here. If you have any questions about the flooring products
